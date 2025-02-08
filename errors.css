@@ -17,7 +17,7 @@
   flex-direction: column;
 }
 
-.error-page-container .error-page-content button {
+.error-page-container .error-page-content a {
   display: flex;
   align-items: center;
   border: 1px solid #c52127;
@@ -28,6 +28,8 @@
   margin-top: 16px;
   font-size: 16px;
   font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .error-page-container .error-page-content p {
