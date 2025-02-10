@@ -31,6 +31,17 @@
   text-decoration: none;
   cursor: pointer;
 }
+.error-page-container .error-page-content img {
+  height: 500px;
+  width: 500px;
+  object-fit: contain;
+}
+@media (max-width: 568px) {
+  .error-page-container .error-page-content img {
+    height: 100%;
+    width: 100%;
+  }
+}
 
 .error-page-container .error-page-content p {
   color: #4d4d4d;
